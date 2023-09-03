@@ -3,7 +3,7 @@ echo Setting up your software and network drives...
 
 :: Mount network share
 echo Mounting network share as Z: drive...
-net use Z: \\192.168.1.133\Chungus /persistent:yes
+net use Z: \\192.168.1.133\share /persistent:yes
 
 :: Create a temp directory for downloads
 mkdir C:\Temp
