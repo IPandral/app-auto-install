@@ -28,7 +28,7 @@ This batch script allows you to automatically install common applications, mount
 
 ## Usage
 
-1. Download the `auto_install_with_menu.bat` script from this repository.
+1. Download the `autoinstall.bat` script from this repository.
 2. Right-click on the script and choose "Run as administrator".
 3. Follow the on-screen menu to select the installation type.
 
