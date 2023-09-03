@@ -1,18 +1,22 @@
 
-# Windows Auto-Install and Configuration Script
+# Windows Auto-Install and Configuration Script with Menu
 
-This is an advanced batch script designed to automatically install common applications, mount a network share, and configure system settings on a fresh install of Windows.
+This batch script allows you to automatically install common applications, mount a network share, and configure system settings on a fresh install of Windows. It features a user selection menu to customize the installation based on the intended use (General Use or Development).
 
 ## Features
 
+- User selection menu for installation type: General Use or Development
 - Mounts a network share to a drive letter
-- Installs the following software:
+- Installs the following software for General Use:
   - Google Chrome
   - Discord
   - Steam
-  - Epic Games Launcher
-  - Battle.net
-  - Spotify
+- Installs additional software for Development:
+  - Visual Studio Code
+  - Python
+  - Node.js
+  - Notepad++
+  - PuTTY
 - Disables system sleep and hibernation
 - Enables Remote Desktop
 - Forces Windows Update to check for updates
@@ -24,16 +28,18 @@ This is an advanced batch script designed to automatically install common applic
 
 ## Usage
 
-1. Download the `auto_install.bat` script from this repository.
+1. Download the `auto_install_with_menu.bat` script from this repository.
 2. Right-click on the script and choose "Run as administrator".
+3. Follow the on-screen menu to select the installation type.
 
 **Note**: Running scripts from the internet is risky. Always read through the script and understand what it does before running it.
 
 ## How it Works
 
-1. **Network Share Mounting**: Mounts a public network share located at `\\192.168.1.133\share` to the `Z:` drive.
-2. **Software Installation**: Downloads and installs each software one by one.
-3. **System Configuration**: Disables sleep, enables Remote Desktop, and forces a Windows Update check.
+1. **User Selection Menu**: Allows the user to choose between General Use and Development.
+2. **Network Share Mounting**: Mounts a public network share located at `\\192.168.1.133\share` to the `Z:` drive.
+3. **Software Installation**: Downloads and installs each software one by one, based on the user's selection.
+4. **System Configuration**: Disables sleep, enables Remote Desktop, and forces a Windows Update check.
 
 ## Customization
 
