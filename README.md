@@ -8,15 +8,25 @@ This batch script allows you to automatically install common applications, mount
 - User selection menu for installation type: General Use or Development
 - Mounts a network share to a drive letter
 - Installs the following software for General Use:
-  - Google Chrome
-  - Discord
-  - Steam
+  - Google Chrome: Web browser
+  - Discord: Communication platform
+  - Steam: Gaming platform
+  - Epic Games Launcher: Another gaming platform
+  - Battle.net: Online gaming platform
+  - Spotify: Music streaming service
 - Installs additional software for Development:
-  - Visual Studio Code
-  - Python
-  - Node.js
-  - Notepad++
-  - PuTTY
+  - All software from the "General Use" option
+  - VS Code: Source code editor
+  - Python: Programming language
+  - Node.js: JavaScript runtime
+  - Notepad++: Text and source code editor
+  - PuTTY: SSH and telnet client
+  - Docker Desktop: Containerization platform
+  - Postman: API testing tool
+  - MySQL Workbench: Database design & management
+  - Eclipse: IDE for Java
+  - IntelliJ IDEA: IDE for Java
+  - Android Studio: IDE for Android development
 - Disables system sleep and hibernation
 - Enables Remote Desktop
 - Forces Windows Update to check for updates
